@@ -10,17 +10,17 @@ int main()
 	cout << "Enter the number" << endl;
 	cin >> number;
 
-	/*Check whether the number less than ZERO*/
+	/*Check whether the number is less than ZERO*/
 
 	if (number < 0)
 	{
 		/*If the number is negative then print the error and terminate the program from further execution*/
 		cout << "Cannot find the factorial for negative numbers" << endl;
-		/*Terminate the execution*/
+		/*Terminate the code from the further execution*/
 		return 0;
 	}
      i=1;
-	/*TO the factorial of any given number if it is not a negative number */
+	/*TO find the factorial of any given number if it is not a negative number */
 		while (i <= number)
 		{
 			factorial *= i; //factorial = factorial * i
